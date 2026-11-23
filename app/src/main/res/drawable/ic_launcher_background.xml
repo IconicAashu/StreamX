@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Base Liquid Glass White-to-Lavender Gradient -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFAF9FE" />
+                <item android:offset="0.5" android:color="#FFF3F1FB" />
+                <item android:offset="1.0" android:color="#FFECE8F9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. Top-Right Atmospheric Sky Blue Ambient Glow -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="96"
+                android:centerY="14"
+                android:gradientRadius="64"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#6693C5FD" />
+                <item android:offset="0.6" android:color="#26A7C8FE" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 3. Bottom-Left Atmospheric Electric Violet Ambient Glow -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="12"
+                android:centerY="96"
+                android:gradientRadius="64"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#66C084FC" />
+                <item android:offset="0.6" android:color="#26D8B4FE" />
+                <item android:offset="1.0" android:color="#00FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 4. Translucent Upper Glass Wave Layer -->
+    <path
+        android:fillColor="#59FFFFFF"
+        android:pathData="M0,22 C32,10 68,34 108,16 L108,44 C72,58 36,36 0,46 Z" />
+
+    <!-- 5. Translucent Lower Glass Wave Layer -->
+    <path
+        android:fillColor="#47FFFFFF"
+        android:pathData="M0,62 C38,52 74,74 108,58 L108,84 C68,98 32,80 0,88 Z" />
+
+    <!-- 6. Soft Specular Rim Highlight -->
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M0,0h108v108h-108z" />
+
+</vector>

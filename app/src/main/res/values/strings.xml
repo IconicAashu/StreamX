@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">STREAMX</string>
+    <string name="welcome_title">Welcome to STREAMX</string>
+    <string name="welcome_subtitle">WATCH • DISCOVER • ENJOY</string>
+    <string name="get_started">Get Started</string>
+</resources>
